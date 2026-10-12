@@ -34,8 +34,8 @@ Phạm vi hiện tại: một nhóm nhỏ mã chọn lọc, không phải toàn 
 Tạo môi trường (giống nhau trên cả hai OS):
 
 ```bash
-conda create -n fsa python=3.13 -y
-conda activate fsa
+conda create -n vn_fsa python=3.13 -y
+conda activate vn_fsa
 pip install -r requirements.txt
 pip install -e .          # để `import fsa` chạy được ở mọi nơi
 ```

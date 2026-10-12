@@ -1,7 +1,7 @@
 --extra-index-url https://vnstocks.com/api/simple
 
 # Ghim phiên bản bằng == (xem CLAUDE.md). Các dòng dưới đây CHƯA ghim vì chưa tra được phiên bản.
-# Sau khi `pip install -r requirements.txt` trong env fsa, chạy `pip show <tên>` rồi thay bằng ==<phiên bản>.
+# Sau khi `pip install -r requirements.txt` trong env vn_fsa, chạy `pip show <tên>` rồi thay bằng ==<phiên bản>.
 vnstock==5.0.0
 vnai
 pandas

@@ -35,7 +35,7 @@ tính chỉ số tài chính, rồi dùng AI diễn giải. Bối cảnh đầy 
 - Không dùng `from __future__ import annotations` (project chạy Python 3.13).
 
 ## Môi trường
-- Conda env `fsa` (Python 3.13). Thư viện cài bằng pip từ `requirements.txt`, ghim `==`.
+- Conda env `vn_fsa` (Python 3.13). Thư viện cài bằng pip từ `requirements.txt`, ghim `==`.
 - Không dùng `pip freeze`, không `conda install` thư viện Python.
 
 ## Cấu trúc
