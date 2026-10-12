@@ -1,0 +1,42 @@
+# Secrets và cấu hình theo máy
+.env
+.env.*
+!.env.example
+secrets/
+
+# Dữ liệu (nằm ngoài repo qua DATA_DIR, chặn phòng trường hợp lỡ copy vào)
+data/
+*.parquet
+*.duckdb
+*.duckdb.wal
+*.sqlite
+*.db
+
+# Claude Code: cấu hình cá nhân
+.claude/settings.local.json
+CLAUDE.local.md
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Môi trường ảo
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE và hệ điều hành
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
