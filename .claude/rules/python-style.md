@@ -6,7 +6,7 @@ paths:
 
 # Quy ước Python
 
-- Python 3.12, type hint đầy đủ cho tham số và giá trị trả về.
+- Python 3.13, type hint đầy đủ cho tham số và giá trị trả về.
 - Mỗi thao tác là một hàm với tham số rõ ràng. Logic nghiệp vụ nằm trong `src/fsa/`,
   tách khỏi lớp gọi (CLI, API, giao diện, skill).
 - Dùng `pathlib.Path`, không hard-code đường dẫn tuyệt đối.

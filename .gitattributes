@@ -1,0 +1,17 @@
+# Mặc định: Git tự nhận diện file text và lưu ký tự xuống dòng là LF,
+# kể cả khi checkout trên Windows. Giữ code giống nhau trên Windows và Kubuntu.
+* text=auto eol=lf
+
+# Script chỉ chạy trên Windows cần CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# File nhị phân: không chuyển đổi xuống dòng, không hiển thị diff dạng text
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+*.xlsx binary
+*.parquet binary
+*.duckdb binary
